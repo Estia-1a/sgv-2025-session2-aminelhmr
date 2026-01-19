@@ -1,53 +1,53 @@
 body {
-    background-color: #f4f4f4; /* Couleur de fond légère */
-    color: #333333; /* Couleur de texte sombre */
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
+  background-color: #f4f4f4; /* Couleur de fond légère */
+  color: #333333; /* Couleur de texte sombre */
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
 }
 
 /* Style de la section profil via son ID */
 #profil {
-    text-align: center;
-    border: 1px solid #cccccc;
-    padding: 20px;
-    background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  background-color: #ffffff;
 }
 
 /* Redimensionnement de la photo */
 img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
 }
 
 /* Utilisation d'une classe spécifique */
 .Highlight {
-    background-color: #ffff00;
-    font-weight: bold;
+  background-color: #ffff00;
+  font-weight: bold;
 }
 
 /* Sélecteurs par position pour les dates dans les listes */
 span:first-child {
-    font-weight: bold;
-    color: #2c3e50;
+  font-weight: bold;
+  color: #2c3e50;
 }
 
 span:last-child {
-    float: right;
-    color: #7f8c8d;
-    font-style: italic;
+  float: right;
+  color: #7f8c8d;
+  font-style: italic;
 }
 
 /* Mise en forme des listes */
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-    margin-bottom: 10px;
-    border-bottom: 1px dashed #ddd;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #ddd;
 }
